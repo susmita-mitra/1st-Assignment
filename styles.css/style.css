@@ -3,14 +3,20 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  color: #4E47FF;
-  font-size: 34px;
+  
 }
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+*{
+    margin: 0;
+}
+.text-style{
+color: #4E47FF;
+  font-size: 34px;
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
@@ -67,4 +73,119 @@ nav{
 }
 .img-position{
     border-radius: 48px;
+}
+
+/*productive user*/
+
+.productive-user-title{
+font-weight: bold;
+font-size: 38px;
+text-align: center;
+}
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding:80px 50px;
+    border-radius: 24px;
+    margin-top: 116px;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: auto  auto 50px;
+    
+}
+.user-data h3{
+    font-size: 80px ;
+    font-weight: bold;
+    color:#4E47FF ;
+    margin: 0;
+    
+}
+.user-data p{
+    font-size: 20;
+    color:rgba(0, 0, 0, 0.5) ;
+    margin: 0;
+}
+
+/*Feedback*/
+.user-feedback h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    gap: 50px;
+ }
+ .star-icon{
+    display: flex;
+    
+ }
+
+.reviewer{
+    display: flex;
+    gap:12px;
+    align-items: center;
+   
+
+ }
+ .reviewer img{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 999px;
+ }
+ .reviewer-name{
+    color: rgba(117, 117, 117, 1)
+ }
+.date{
+ color:rgba(179, 179, 179, 1)
+}
+ .card{
+     width: 300px;
+     padding: 24px;
+     background-color:  rgba(255, 255, 255, 0.5);
+     border-radius: 14px;
+     border:0.5px solid #ffb8056c;
+     gap: 20px;
+
+
+}
+.get-feedback{
+    gap: 20px;
+}
+ .feedback-titel{
+    font-size: 29px;
+ }
+ .feedback-description{
+    font-size: 20px;
+ }
+ .card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+ }
+ .user-feedback{
+    margin-top:116px ;
+ }
+
+/*ready to focus*/
+.ready-to-focus{
+    background-color: white;
+    margin-top: 137px;
+}
+.text h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 71px 312px 20px;
+}
+.text p{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ready-to-img img{
+    border-radius: 48px;
+    margin: 20px 150px 71px;
+    
 }
