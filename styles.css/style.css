@@ -33,6 +33,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 150px;
+    
 }
 
  main{
@@ -44,7 +45,7 @@ nav{
     background-color: #f5f7ff;
  }
  .banner{
-    margin:158px 267.5px 152px;
+    margin:158px 267px 152px;
     gap: 20px;
  }
  /*shared btn*/
@@ -286,10 +287,4 @@ footer{
     justify-content: center; 
     gap: 48px;
     margin: 20px;
-}
-.service-container li:hover{
-    background-color:yellow;
-    color: black;
-    font-weight: bold;
-
 }
