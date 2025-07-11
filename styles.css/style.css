@@ -30,7 +30,7 @@ header{
 
 nav{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0 150px;
 }
@@ -55,6 +55,11 @@ nav{
     border-radius: 10px;
     border: none;
 }
+.btn-primary:hover{
+    background-color: yellow;
+    color: #000000;
+    cursor: pointer;
+}
 .btn{
     display: block;
     margin: auto;
@@ -65,6 +70,7 @@ nav{
     text-align: center;
     
 }
+/*action part*/
 .action{
     display: flex;
     justify-content:space-between;
@@ -152,7 +158,7 @@ text-align: center;
      padding: 24px;
      background-color:  rgba(255, 255, 255, 0.5);
      border-radius: 14px;
-     border:0.5px solid #ffb8056c;
+     border: 0.03px solid #F2EDED;
      gap: 20px;
 
 
@@ -221,7 +227,7 @@ text-align: center;
     background-color: white;
     display: block;
     border: none;
-    padding: 20px 271px 20px 32px;
+    padding: 20px 275px 20px 32px;
 }
 .form textarea{
     height: 135px;
@@ -243,17 +249,14 @@ text-align: center;
     margin-bottom: 5px;
 }
 textarea::placeholder{
-    padding: 30px 257px 85px 32px;
+    padding: 32px 20px;
     font-size: 20px;
-    
 }
 
 /*Footer*/
 
 footer{
     background-color: white;
-    
-    
 }
 .footer{
     max-width: 700px;
@@ -270,8 +273,6 @@ footer{
     font-size: 20px;
     color: #8987A1;
     text-align: center;
-     
-    
 }
 .service-container ul{
     list-style: none;
